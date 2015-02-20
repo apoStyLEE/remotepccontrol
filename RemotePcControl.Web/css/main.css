@@ -1,0 +1,25 @@
+body {
+  background: #1D1D1D;
+}
+.container-main {
+  margin-top: 40px;
+}
+.container-main .media-controls {
+  text-align: center;
+}
+.container-main .media-controls button {
+  font-weight: bold;
+  width: 150px;
+}
+.container-main .media-controls button i {
+  margin-bottom: 8px;
+  font-size: 30px;
+  display: block;
+}
+.container-main .media-controls .alert-info {
+  position: fixed;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  display: none;
+}

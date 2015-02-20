@@ -1,0 +1,46 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Remote Control</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="~/js/jquery-1.11.2.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/main.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container-fluid container-main js-remoteMediaApp">
+
+        <div class="row">
+
+            <div class="col-sm-12">
+
+                <div class="media-controls">
+
+                    <button class="btn btn-primary" data-action="playPause"><i class="glyphicon glyphicon-play"></i>Play / Pause</button>
+
+                    <hr />
+
+                    <button class="btn btn-default" data-action="volumeUp"><i class="glyphicon glyphicon-volume-up"></i>Volume Up</button>
+                    <button class="btn btn-default" data-action="volumeDown"><i class="glyphicon glyphicon-volume-down"></i>Volume Down</button>
+                    
+                    <br />
+                    <br />
+
+                    <button class="btn btn-default" data-action="volumeMute"><i class="glyphicon glyphicon-volume-off"></i>Mute</button>
+                    
+                    <div class="alert alert-info js-alert-info"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
