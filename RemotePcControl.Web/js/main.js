@@ -10,9 +10,7 @@ window.onload = function (e) {
 var remoteMediaApp = {
 
     defination: {
-        apiUrl: function() {
-            return "http://localhost:9000/api/media/";
-        }
+        apiUrl: "http://localhost:9000/api/media/"
     },
 
     init: function() {
@@ -39,7 +37,7 @@ var remoteMediaApp = {
             }
 
 
-            var url = remoteMediaApp.defination.apiUrl() + action;
+            var url = remoteMediaApp.defination.apiUrl + action;
             
             $.ajax({
                 type: "get",
